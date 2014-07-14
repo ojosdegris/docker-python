@@ -19,7 +19,8 @@ RUN apt-get install -yy \
     python3.2-dev \
     python3.3-dev \
     python-setuptools \
-    libmysqlclient-dev
+    libmysqlclient-dev \
+    libpq-dev
 
 RUN apt-get clean
 
