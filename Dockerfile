@@ -18,7 +18,8 @@ RUN apt-get install -yy \
     python2.7-dev \
     python3.2-dev \
     python3.3-dev \
-    python-setuptools
+    python-setuptools \
+    libmysqlclient-dev
 
 RUN apt-get clean
 
