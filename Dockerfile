@@ -1,4 +1,4 @@
-FROM nitrousio/ubuntu:trusty
+FROM nitrousio/nodejs:latest
 MAINTAINER Nitrous.IO <hello@nitrous.io>
 
 RUN apt-get install -yy software-properties-common python-software-properties
