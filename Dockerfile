@@ -1,4 +1,4 @@
-FROM nitrousio/nodejs:latest
+FROM ubuntu:trusty
 MAINTAINER vittore <dart.gris@gmail.com>
 
 RUN apt-get install -yy software-properties-common python-software-properties
