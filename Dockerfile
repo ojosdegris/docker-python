@@ -1,11 +1,11 @@
 FROM nitrousio/nodejs:latest
-MAINTAINER Nitrous.IO <hello@nitrous.io>
+MAINTAINER vittore <dart.gris@gmail.com>
 
 RUN apt-get install -yy software-properties-common python-software-properties
 RUN apt-add-repository -y ppa:fkrull/deadsnakes
 RUN apt-get update
 
-# Install all different versions of python
+# Install 2.7 and latest 3 versions of python
 RUN apt-get install -yy \
     python2.7 \
     python3.3 \
